@@ -1,236 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Luma Aesthetics — a fictional skincare and beauty website demo by Glanzberg Web.">
-  <title>Luma Aesthetics | Beauty & Skincare Demo</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Luma Aesthetics — fictional luxury skincare website demo by Glanzberg Web.">
+  <title>Luma Aesthetics | Editorial Beauty Demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Italiana&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="demo-bar">FICTIONAL BEAUTY & WELLNESS DEMO · GLANZBERG WEB</div>
+  <div class="demo-note">FICTIONAL BEAUTY CONCEPT · PORTFOLIO DEMO</div>
 
-  <header class="header" id="top">
-    <a class="brand" href="#top">
-      <span class="brand-mark">L</span>
-      <span class="brand-copy"><strong>LUMA</strong><small>AESTHETICS</small></span>
-    </a>
-
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
-
-    <nav class="nav">
-      <a href="#treatments">Treatments</a>
-      <a href="#approach">Approach</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#faq">FAQ</a>
-      <a class="nav-cta" href="#consult">Book Consultation</a>
-    </nav>
+  <header>
+    <a class="logo" href="#intro">LUMA</a>
+    <div class="chapter" id="chapterLabel">INTRODUCTION</div>
+    <a class="book" href="#consult">CONSULTATION ↗</a>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <span class="eyebrow">SKINCARE · BEAUTY · CONFIDENCE</span>
-        <h1>Subtle care.<br><em>Beautifully personal.</em></h1>
-        <p>Thoughtful aesthetic treatments and skincare plans designed around your goals, your comfort, and a natural-looking result.</p>
-        <div class="hero-actions">
-          <a class="btn btn-dark" href="#consult">Book a Consultation</a>
-          <a class="text-link" href="#treatments">Explore Treatments →</a>
-        </div>
-        <div class="hero-note">Fictional concept · Consultation-led care · South Florida</div>
+    <section class="intro observe" id="intro" data-chapter="INTRODUCTION">
+      <div class="intro-portrait"></div>
+      <div class="intro-title">
+        <span>AESTHETICS / SKIN / RITUAL</span>
+        <h1>Beauty,<br>without the<br><em>noise.</em></h1>
       </div>
-
-      <div class="hero-visual">
-        <div class="hero-photo"></div>
-        <div class="floating-card">
-          <span>FIRST VISIT</span>
-          <strong>Start with a consultation.</strong>
-          <p>Talk through your goals before choosing a treatment.</p>
-        </div>
+      <div class="intro-copy">
+        <p>A fictional aesthetics studio built around quiet guidance, restraint, and individualized care.</p>
+        <a href="#skin">Enter ↓</a>
       </div>
     </section>
 
-    <section class="signature">
-      <span>SKIN HEALTH</span><i>✦</i><span>FACIAL CARE</span><i>✦</i><span>CONSULTATIONS</span><i>✦</i><span>SUBTLE RESULTS</span>
+    <section class="interlude">
+      <p>We begin with the face in front of us—not a trend, not a package, not a before-and-after promise.</p>
     </section>
 
-    <section class="section treatments" id="treatments">
-      <div class="section-heading">
-        <div>
-          <span class="eyebrow dark">OUR TREATMENTS</span>
-          <h2>Care that starts with what you want to improve.</h2>
-        </div>
-        <p>This demo is structured to help visitors understand treatment categories without overwhelming them with clinical detail.</p>
-      </div>
-
-      <div class="treatment-grid">
-        <article class="treatment-card featured">
-          <span class="card-num">01</span>
-          <div class="card-photo facial"></div>
-          <div class="card-copy">
-            <span class="pill">Signature</span>
-            <h3>Custom Facial</h3>
-            <p>A personalized facial experience focused on hydration, texture, clarity, and overall skin appearance.</p>
-            <a href="#consult">Ask about facial care →</a>
-          </div>
-        </article>
-
-        <article class="treatment-card">
-          <span class="card-num">02</span>
-          <div class="card-copy">
-            <span class="pill soft">Skin</span>
-            <h3>Glow Treatments</h3>
-            <p>Targeted skincare options designed to refresh dull-looking skin and support a smoother, brighter appearance.</p>
-            <a href="#consult">Explore skin options →</a>
-          </div>
-        </article>
-
-        <article class="treatment-card">
-          <span class="card-num">03</span>
-          <div class="card-copy">
-            <span class="pill soft">Consult</span>
-            <h3>Aesthetic Consultation</h3>
-            <p>A goal-focused conversation to discuss concerns, preferences, treatment options, and realistic expectations.</p>
-            <a href="#consult">Start with a consultation →</a>
-          </div>
-        </article>
-
-        <article class="treatment-card">
-          <span class="card-num">04</span>
-          <div class="card-copy">
-            <span class="pill soft">Maintenance</span>
-            <h3>Skin Membership</h3>
-            <p>A recurring care concept for clients who want consistent appointments and a more structured skincare routine.</p>
-            <a href="#consult">Ask about recurring care →</a>
-          </div>
-        </article>
+    <section class="chapter-section skin observe" id="skin" data-chapter="01 / SKIN">
+      <div class="chapter-image"></div>
+      <div class="chapter-copy">
+        <span>01 / SKIN</span>
+        <h2>Texture.<br>Light.<br>Clarity.</h2>
+        <p>Facial care and skin-focused treatments presented as a considered ritual, not a crowded menu.</p>
+        <a href="#consult">Discuss your skin →</a>
       </div>
     </section>
 
-    <section class="approach" id="approach">
-      <div class="approach-photo"></div>
-      <div class="approach-copy">
-        <span class="eyebrow dark">THE LUMA APPROACH</span>
-        <h2>Less pressure.<br>More clarity.</h2>
-        <p>A premium aesthetics website should feel calm and informative, not aggressive. The consultation comes first so visitors understand that treatment decisions are made after discussing goals and suitability.</p>
+    <section class="chapter-section consult-story observe" id="consultation" data-chapter="02 / CONSULT">
+      <div class="chapter-copy">
+        <span>02 / CONSULT</span>
+        <h2>The first treatment<br>is a conversation.</h2>
+        <p>A real provider would review goals, history, preferences, and suitability before recommending services. This demo intentionally puts that moment at the center of the experience.</p>
+        <dl>
+          <div><dt>01</dt><dd>What do you notice?</dd></div>
+          <div><dt>02</dt><dd>What would you change?</dd></div>
+          <div><dt>03</dt><dd>What should remain untouched?</dd></div>
+        </dl>
+      </div>
+      <div class="chapter-image"></div>
+    </section>
 
-        <div class="approach-list">
-          <div><span>01</span><div><strong>Listen first</strong><p>Start with concerns, preferences, and what “natural” means to you.</p></div></div>
-          <div><span>02</span><div><strong>Explain options</strong><p>Make recommendations understandable before asking for a decision.</p></div></div>
-          <div><span>03</span><div><strong>Keep it personal</strong><p>Build a plan around the individual rather than a one-size-fits-all menu.</p></div></div>
-        </div>
+    <section class="quote observe" data-chapter="03 / PHILOSOPHY">
+      <span>03 / PHILOSOPHY</span>
+      <blockquote>“The goal is not to look treated. The goal is to look considered.”</blockquote>
+      <small>Fictional brand philosophy for demonstration only</small>
+    </section>
+
+    <section class="chapter-section ritual observe" id="ritual" data-chapter="04 / RITUAL">
+      <div class="chapter-image"></div>
+      <div class="chapter-copy">
+        <span>04 / RITUAL</span>
+        <h2>Care that<br>continues.</h2>
+        <p>Instead of a grid of memberships and packages, recurring care is introduced as a rhythm: assess, treat, observe, adjust.</p>
+        <div class="ritual-line"><i>ASSESS</i><b></b><i>TREAT</i><b></b><i>OBSERVE</i><b></b><i>ADJUST</i></div>
       </div>
     </section>
 
-    <section class="experience section">
-      <div class="experience-heading">
-        <span class="eyebrow dark">YOUR VISIT</span>
-        <h2>A calm experience from first click to follow-up.</h2>
+    <section class="voices observe" data-chapter="05 / VOICES">
+      <span>05 / VOICES</span>
+      <div class="voice">
+        <p>“Nothing felt rushed. The recommendation felt like it belonged to me, not to a sales script.”</p>
+        <small>Sample testimonial · Ava M.</small>
       </div>
-
-      <div class="experience-grid">
-        <div><span>1</span><h3>Consult</h3><p>Share your goals and ask questions before choosing a service.</p></div>
-        <div><span>2</span><h3>Plan</h3><p>Review the recommended approach, timing, and what to expect.</p></div>
-        <div><span>3</span><h3>Treat</h3><p>Move forward only with the services selected during consultation.</p></div>
-        <div><span>4</span><h3>Follow Up</h3><p>Review progress and adjust future care as needed.</p></div>
+      <div class="voice">
+        <p>“The space felt calm before anyone said a word.”</p>
+        <small>Sample testimonial · Sofia R.</small>
       </div>
     </section>
 
-    <section class="reviews section" id="reviews">
-      <div class="review-intro">
-        <span class="eyebrow dark">CLIENT EXPERIENCE</span>
-        <h2>Comfort matters as much as the result.</h2>
+    <section class="consult observe" id="consult" data-chapter="CONSULTATION">
+      <div class="consult-left">
+        <span>BEGIN HERE</span>
+        <h2>Tell us what<br>you want to understand.</h2>
+        <p>This is a fictional consultation form. No medical advice is provided and no information is sent to a real clinic.</p>
       </div>
 
-      <div class="review-grid">
-        <blockquote>
-          <p>“The whole experience felt thoughtful and unhurried. I appreciated how clearly everything was explained.”</p>
-          <footer>— Ava M. <span>Sample testimonial</span></footer>
-        </blockquote>
-        <blockquote>
-          <p>“Beautiful space, easy booking, and no pressure to do more than I was comfortable with.”</p>
-          <footer>— Sofia R. <span>Sample testimonial</span></footer>
-        </blockquote>
-      </div>
-      <p class="demo-note">Sample testimonials shown for portfolio demonstration only.</p>
-    </section>
-
-    <section class="faq section" id="faq">
-      <div class="faq-heading">
-        <span class="eyebrow dark">BEFORE YOU BOOK</span>
-        <h2>Questions should feel easy to ask.</h2>
-      </div>
-
-      <div class="faq-list">
-        <details>
-          <summary>Do I need a consultation first?</summary>
-          <p>This fictional concept is designed around consultation-first care so treatment options can be discussed before booking a service.</p>
-        </details>
-        <details>
-          <summary>How do I know which treatment is right for me?</summary>
-          <p>A real provider would review your goals, history, preferences, and suitability before recommending a treatment plan.</p>
-        </details>
-        <details>
-          <summary>Can I book skincare only?</summary>
-          <p>Yes. This demo includes facial and skincare-oriented services that can stand alone from other aesthetic treatments.</p>
-        </details>
-        <details>
-          <summary>Is this website providing medical advice?</summary>
-          <p>No. Luma Aesthetics is fictional, and all treatment language is sample website copy for portfolio demonstration.</p>
-        </details>
-      </div>
-    </section>
-
-    <section class="consult" id="consult">
-      <div class="consult-copy">
-        <span class="eyebrow light">BOOK A CONSULTATION</span>
-        <h2>Start with a conversation.</h2>
-        <p>On a live client site, this inquiry could route directly to the practice so a team member can follow up about goals, availability, and next steps.</p>
-        <div class="contact-meta">
-          <span>(305) 555-0156</span>
-          <span>South Florida</span>
-          <span>Mon–Sat · By appointment</span>
-        </div>
-      </div>
-
-      <form class="consult-form" id="consultForm">
-        <div class="row">
-          <label>Name<input name="name" required></label>
-          <label>Phone<input name="phone" type="tel" required></label>
-        </div>
-        <label>Email<input name="email" type="email" required></label>
-        <label>What are you interested in?
-          <select name="interest">
-            <option>Skincare / facial treatment</option>
-            <option>General aesthetics consultation</option>
-            <option>Recurring skin care</option>
-            <option>Not sure yet</option>
-          </select>
+      <form id="consultForm">
+        <label><span>Your name</span><input name="name" required></label>
+        <label><span>Email</span><input name="email" type="email" required></label>
+        <label><span>What brings you in?</span>
+          <select name="interest"><option>Skin / facial care</option><option>General aesthetics consultation</option><option>Ongoing skincare</option><option>I'm not sure yet</option></select>
         </label>
-        <label>Tell us what you'd like to discuss<textarea name="message" rows="5" placeholder="Goals, concerns, preferred timing, etc."></textarea></label>
-        <button class="btn btn-blush full" type="submit">Request Consultation</button>
-        <small>Demo only — this form does not send information to a real clinic or provider.</small>
+        <label><span>In your own words</span><textarea name="message" rows="4"></textarea></label>
+        <button type="submit">REQUEST CONSULTATION ↗</button>
+        <small>Demo submission only.</small>
       </form>
     </section>
   </main>
 
-  <footer>
-    <div class="brand footer-brand">
-      <span class="brand-mark">L</span>
-      <span class="brand-copy"><strong>LUMA</strong><small>AESTHETICS</small></span>
-    </div>
-    <p>Fictional beauty and skincare concept created for the Glanzberg Web portfolio.</p>
-    <a href="#top">Back to top ↑</a>
-  </footer>
-
-  <div class="toast" role="status" aria-live="polite">
-    <strong>Demo consultation received.</strong>
-    <span>On a live site, this would be delivered to the business.</span>
-  </div>
-
+  <footer><span>LUMA / AESTHETICS</span><span>SOUTH FLORIDA · FICTIONAL</span><a href="#intro">TOP ↑</a></footer>
+  <div class="toast" id="toast">Demo consultation received.</div>
   <script src="script.js"></script>
 </body>
 </html>
